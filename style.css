@@ -21,12 +21,17 @@ header {
     padding: 20px;
     text-align: center;
 }
-
+/* მენიუ ჰორიზონტალურად */
 nav {
     grid-area: nav;
     background-color: #e9ecef;
     padding: 20px;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}   
 
 main {
     grid-area: main;
